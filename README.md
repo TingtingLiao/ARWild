@@ -46,8 +46,8 @@ If you use other python and cuda versions (default python3.7 cuda 10.2), please 
  
 
 ## Inference  
-- Download the [pretrained models]( ) and put it in ./out/ckpt/arwild-normal-1view/. 
-- Download [extra data]( ) (PyMAF, ICON normal model, SMPL model) and put them to ./data.  
+- Download the [pretrained models](https://drive.google.com/file/d/1mLChXG4EnZFXOln6DVXcMKL1bdxr_xcm/view?usp=sharing) and put it in ./out/ckpt/arwild-normal-1view/. 
+- Download [extra data](https://drive.google.com/file/d/1rTcoWQxL8vPt0DaWhsAY8mN6xLH7mg9Y/view?usp=sharing) (PyMAF, ICON normal model, SMPL model) and put them to ./data.  
 - Run the following script to test example images in directory ./examples/net. Results will be saved in ./examples/net/results.
 ``` 
 python -m apps.infer --gpu 0 -cfg configs/arwild.yaml -in_dir "./examples/net"
